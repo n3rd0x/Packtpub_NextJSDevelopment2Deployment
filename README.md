@@ -15,3 +15,7 @@ npx create-next-app dj-event-frontend
 # (Optional) Disable telemetry
 npx next telemetry disable
 ```
+
+
+## Resources
+- Github (https://github.com/PacktPublishing/Next.js-from-Development-to-Deployment-Build-a-Music-Event-Website)
