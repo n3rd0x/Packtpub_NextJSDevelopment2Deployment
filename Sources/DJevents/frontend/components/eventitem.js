@@ -16,6 +16,19 @@ export default function EventItem({ refEvent }) {
                     height={100}
                 />
             </div>
+
+            <div className={styles.info}>
+                <span>
+                    {refEvent.date} at {refEvent.time}
+                </span>
+                <h3>{refEvent.name}</h3>
+            </div>
+
+            <div className={styles.link}>
+                <Link href={`/events/${refEvent.slug}`}>
+                    <p className="btn">Details</p>
+                </Link>
+            </div>
         </div>
     );
 }
