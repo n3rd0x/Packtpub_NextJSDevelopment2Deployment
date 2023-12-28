@@ -3,7 +3,7 @@ import {useRouter} from 'next/router'
 import Header from "./header";
 import Footer from "./footer";
 import Showcase from "./showcase";
-import styles from "@/styles/Layout.module.css";
+import styles from "@/styles/layout.module.css";
 
 export default function Layout({ title, keywords, description, children }) {
     const router = useRouter()
